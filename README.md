@@ -1,5 +1,5 @@
 ### Hi there 👋
->使用uniClound搭建的uni-app应用
+>uni-app应用，启用uniClound，可实现热更新&整包更新
 
 <!--
 **InsaneGenji/InsaneGenji** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

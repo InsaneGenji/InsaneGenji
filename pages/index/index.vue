@@ -17,12 +17,12 @@
 					title: `标题${i}`,
 					time: `2021-08-0${i}`,
 					content: `内容${i}`
-				})
+				});
 			}
 		},
 		methods: {
 			toastTitle(title) {
-				this.$common.toast(title, 'error');
+				this.$common.toast(title);
 			}
 		}
 	}
@@ -32,8 +32,7 @@
 	#container {
 		.i-cardList {
 			width: 90%;
-			height: calc(100% - 20rpx);
-			margin-top: 20rpx;
+			height: 100%;
 		}
 	}
 </style>

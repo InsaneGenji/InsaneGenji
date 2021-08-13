@@ -24,7 +24,7 @@
 	#container {
 		box-sizing: border-box;
 		height: 100%;
-		background-color: #ccc;
+		background-color: #eee;
 		overflow-y: auto;
 		display: flex;
 		flex-direction: column;

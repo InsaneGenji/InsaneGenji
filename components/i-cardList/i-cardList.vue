@@ -1,5 +1,5 @@
 <template>
-	<scroll-view class="i-cardList" scroll-y>
+	<scroll-view class="i-cardList" scroll-y @scrolltolower="getMoreData">
 		<view class="item" v-for="(item,index) in dataList" :key="index" @click="toastTitle(item.title)">
 			<view class="title">{{item.title}}</view>
 			<view class="time">{{item.time}}</view>
@@ -20,6 +20,9 @@
 			}
 		},
 		methods: {
+			getMoreData() {
+				this.$common.toast('滑到底啦！');
+			},
 			toastTitle(title) {
 				this.$emit('toastTitle', title);
 			}
@@ -31,8 +34,9 @@
 	.i-cardList {
 		.item {
 			background-color: #fff;
-			border-radius: 9rpx;
-			margin-bottom: 20rpx;
+			padding: 20rpx;
+			border-radius: 14rpx;
+			margin-top: 30rpx;
 		}
 	}
 </style>

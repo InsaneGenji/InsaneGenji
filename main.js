@@ -3,9 +3,16 @@ import App from './App';
 import store from './store';
 // 引入封装函数
 import common from '@/common/common.js';
+// 引入组件
+import ICardList from '@/components/i-cardList/i-cardList.vue';
 
-// 全局注册函数
+
+
+// 注册全局函数
 Vue.prototype.$common = common;
+
+// 注册全局组件
+Vue.component('i-cardList', ICardList);
 
 
 

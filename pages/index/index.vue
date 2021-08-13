@@ -1,9 +1,6 @@
 <template>
-	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
-		</view>
+	<view id="container">
+		<i-cardList :dataList="dataList" @toastTitle="toastTitle"></i-cardList>
 	</view>
 </template>
 
@@ -11,42 +8,32 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello'
+				dataList: []
 			}
 		},
 		onLoad() {
-
+			for (let i = 0; i < 10; i++) {
+				this.dataList.push({
+					title: `标题${i}`,
+					time: `2021-08-0${i}`,
+					content: `内容${i}`
+				})
+			}
 		},
 		methods: {
-
+			toastTitle(title) {
+				this.$common.toast(title, 'error');
+			}
 		}
 	}
 </script>
 
-<style>
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin-top: 200rpx;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 50rpx;
-	}
-
-	.text-area {
-		display: flex;
-		justify-content: center;
-	}
-
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
+<style lang="scss" scoped>
+	#container {
+		.i-cardList {
+			width: 90%;
+			height: calc(100% - 20rpx);
+			margin-top: 20rpx;
+		}
 	}
 </style>

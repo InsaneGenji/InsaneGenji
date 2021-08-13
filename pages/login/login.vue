@@ -20,6 +20,9 @@
 		methods: {
 			submit(e) {
 				console.log(e.detail.value);
+				uni.switchTab({
+					url: '../index/index'
+				});
 			}
 		}
 	}

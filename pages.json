@@ -14,6 +14,11 @@
 		"style": {
 			"navigationBarTitleText": "我的"
 		}
+	}, {
+		"path": "pages/example-component/example-component",
+		"style": {
+			"navigationBarTitleText": "例子-组件"
+		}
 	}],
 	"tabBar": {
 		"color": "#ccc",

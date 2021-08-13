@@ -37,6 +37,10 @@
 			padding: 20rpx;
 			border-radius: 14rpx;
 			margin-top: 30rpx;
+			
+			&:last-of-type{
+				margin-bottom: 30rpx;
+			}
 		}
 	}
 </style>

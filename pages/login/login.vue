@@ -2,7 +2,7 @@
 	<view id="container">
 		<!-- 状态栏 -->
 		<view class="status_bar"></view>
-		
+
 		<form @submit="submit">
 			<label>
 				<text>账号</text>

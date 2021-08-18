@@ -1,5 +1,6 @@
 ### Hi there 👋
 >uni-app应用，启用uniClound，可实现热更新&整包更新
+![](https://github-readme-stats.vercel.app/api?username=mayandev&theme=dark)
 
 <!--
 **InsaneGenji/InsaneGenji** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

@@ -1,7 +1,11 @@
 <script>
+	import checkUpdate from '@/uni_modules/uni-upgrade-center-app/utils/check-update';
+
 	export default {
 		globalData: {},
-		onLaunch() {}
+		onLaunch() {
+			checkUpdate();
+		}
 	}
 </script>
 
@@ -29,5 +33,11 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+
+	// 状态栏
+	.status_bar {
+		height: var(--status-bar-height);
+		width: 100%;
 	}
 </style>

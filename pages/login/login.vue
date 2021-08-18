@@ -1,9 +1,16 @@
 <template>
 	<view id="container">
+		<!-- 状态栏 -->
+		<view class="status_bar"></view>
+		
 		<form @submit="submit">
 			<label>
-				<switch name="yes" checked @change="" />
-				<text>选择</text>
+				<text>账号</text>
+				<input name="username" placeholder="请输入账号" />
+			</label>
+			<label>
+				<text>账号</text>
+				<input name="password" password placeholder="请输入密码" />
 			</label>
 			<button form-type="submit">登录</button>
 		</form>
@@ -18,6 +25,7 @@
 			};
 		},
 		methods: {
+			// 登录
 			submit(e) {
 				console.log(e.detail.value);
 				uni.switchTab({
@@ -29,5 +37,7 @@
 </script>
 
 <style lang="scss" scoped>
-	#container {}
+	#container {
+		background-color: red;
+	}
 </style>

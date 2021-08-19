@@ -1,0 +1,16 @@
+{
+  "id": "2754637",
+  "name": "InsaneGenji",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3063056",
+      "name": "watch",
+      "font_class": "watch",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    }
+  ]
+}

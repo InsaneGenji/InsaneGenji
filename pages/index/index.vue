@@ -14,7 +14,7 @@
 			return {
 				navList: [{
 					name: '例子-组件',
-					url: '../example-component/example-component'
+					url: '../exampleComponent/exampleComponent'
 				}]
 			}
 		},

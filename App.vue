@@ -4,12 +4,17 @@
 	export default {
 		globalData: {},
 		onLaunch() {
+			// #ifdef APP-PLUS
 			checkUpdate();
+			// #endif
 		}
 	}
 </script>
 
 <style lang="scss">
+	// 引入iconfont
+	@import './static/iconfont/iconfont.css';
+
 	// 重构button样式
 	button {
 

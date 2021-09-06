@@ -3,7 +3,7 @@
 		<!-- 状态栏 -->
 		<view class="status_bar"></view>
 		<!-- logo -->
-		<image class="logo" src="../../static/images/login/icon-login.png" mode="widthFix"></image>
+		<image class="logo" src="/static/images/login/icon-login.png" mode="widthFix"></image>
 		<!-- form -->
 		<form @submit="login">
 			<label class="username">

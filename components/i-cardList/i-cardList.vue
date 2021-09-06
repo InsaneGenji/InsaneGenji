@@ -10,7 +10,7 @@
 
 <script>
 	export default {
-		name: "i-cardList",
+		name: 'i-cardList',
 		props: {
 			dataList: {
 				type: Array,
@@ -32,13 +32,16 @@
 
 <style lang="scss" scoped>
 	.i-cardList {
+		width: 100%;
+		overflow-y: auto;
+
 		.item {
 			background-color: #fff;
 			padding: 20rpx;
 			border-radius: 14rpx;
 			margin-top: 30rpx;
-			
-			&:last-of-type{
+
+			&:last-of-type {
 				margin-bottom: 30rpx;
 			}
 		}

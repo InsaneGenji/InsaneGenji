@@ -32,7 +32,7 @@
 	#container {
 		.i-cardList {
 			width: 90%;
-			height: 100%;
+			height: calc(100% - 100rpx);
 		}
 	}
 </style>

@@ -1,36 +1,35 @@
-### Hi there ğŸ‘‹
+### Hi there 
 # sad
-uni-appåº”ç”¨ï¼Œå¯ç”¨uniCloundï¼Œå¯å®ç°çƒ­æ›´æ–°&æ•´åŒ…æ›´æ–°  
-![å›¾æ ‡æ ‡é¢˜](https://github-readme-stats.vercel.app/api?username=mayandev&theme=dark "å›¾ç‰‡æ‚¬æµ®æ–‡å­—")  
-[InsaneGenji](https://www.insanegenji.com/ "æˆ‘çš„ä¸»é¡µ")
+![Í¼±ê±êÌâ](https://github-readme-stats.vercel.app/api?username=mayandev&theme=dark "Í¼Æ¬Ğü¸¡ÎÄ×Ö")  
+[InsaneGenji](https://www.insanegenji.com/ "ÎÒµÄÖ÷Ò³")
 
 <!--
-# ä¸€çº§æ ‡é¢˜
-## äºŒçº§æ ‡é¢˜
-### ä¸‰çº§æ ‡é¢˜
-#### å››çº§æ ‡é¢˜
-##### äº”çº§æ ‡é¢˜
-###### å…­çº§æ ‡é¢˜
+# Ò»¼¶±êÌâ
+## ¶ş¼¶±êÌâ
+### Èı¼¶±êÌâ
+#### ËÄ¼¶±êÌâ
+##### Îå¼¶±êÌâ
+###### Áù¼¶±êÌâ
 
-**åŠ ç²—**
-*å€¾æ–œ*
-***æ–œä½“åŠ ç²—***
-~~åˆ é™¤çº¿~~
+**¼Ó´Ö**
+*ÇãĞ±*
+***Ğ±Ìå¼Ó´Ö***
+~~É¾³ıÏß~~
 -->
 
 
 
 <!--
-**InsaneGenji/InsaneGenji** is a âœ¨ _special_ âœ¨ repository because its `README.md` (this file) appears on your GitHub profile.
+**InsaneGenji/InsaneGenji** is a  _special_  repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
-- ğŸ”­ Iâ€™m currently working on ...
-- ğŸŒ± Iâ€™m currently learning ...
-- ğŸ‘¯ Iâ€™m looking to collaborate on ...
-- ğŸ¤” Iâ€™m looking for help with ...
-- ğŸ’¬ Ask me about ...
-- ğŸ“« How to reach me: ...
-- ğŸ˜„ Pronouns: ...
-- âš¡ Fun fact: ...
+-  I¡¯m currently working on ...
+-  I¡¯m currently learning ...
+-  I¡¯m looking to collaborate on ...
+-  I¡¯m looking for help with ...
+-  Ask me about ...
+-  How to reach me: ...
+-  Pronouns: ...
+-  Fun fact: ...
 -->

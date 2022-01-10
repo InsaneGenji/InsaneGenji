@@ -10,6 +10,12 @@
 			<input type="search" placeholder="在网络上搜索" name="wd" />
 			<input type="submit" value="" title="搜索" />
 		</form>
+
+		<!-- 页脚 -->
+		<div class="bottom">
+			<span>insanegenji.com 版权所有ICP证：</span>
+			<a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备20023934号</a>
+		</div>
 	</div>
 </template>
 
@@ -27,7 +33,7 @@
 		background-size: cover;
 		background-attachment: fixed;
 
-		/* LOGO */
+		// LOGO
 		.logo {
 			margin: 89px 0 39px;
 
@@ -41,7 +47,7 @@
 			}
 		}
 
-		/* 搜索栏 */
+		// 搜索栏
 		form {
 			width: 777px;
 			height: 50px;
@@ -114,6 +120,23 @@
 						background-color: rgba(200, 200, 200, .39);
 					}
 				}
+			}
+		}
+
+		// 页脚
+		.bottom {
+			height: 39px;
+			line-height: 39px;
+			background-color: #000;
+			margin-top: auto;
+
+			span {
+				color: #777;
+			}
+
+			a {
+				color: #ff6a00;
+				text-decoration: none;
 			}
 		}
 	}

@@ -126,6 +126,7 @@
 		// 页脚
 		.bottom {
 			height: 39px;
+			font-size: 14px;
 			line-height: 39px;
 			background-color: #000;
 			margin-top: auto;

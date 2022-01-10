@@ -5,6 +5,13 @@
 </template>
 
 <style lang="scss">
+	* {
+		box-sizing: border-box;
+		font-family: PingFang SC;
+		color: #333;
+		word-break: break-all;
+	}
+
 	html,
 	body,
 	#app,

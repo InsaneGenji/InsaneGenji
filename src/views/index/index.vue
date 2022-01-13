@@ -128,6 +128,7 @@
 			width: 100%;
 			height: 39px;
 			font-size: 14px;
+			text-align: center;
 			line-height: 39px;
 			background-color: #000;
 			margin-top: auto;

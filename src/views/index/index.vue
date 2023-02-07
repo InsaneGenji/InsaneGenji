@@ -1,7 +1,7 @@
 <template>
 	<div id="container">
 		<!-- LOGO -->
-		<a class="logo" href="https://zh.moegirl.org/初音未来#">
+		<a class="logo" href="static-mp-8504dc56-f910-4add-804c-444af196b0dc.next.bspapp.com">
 			<img src="@/assets/images/logo.png" alt="初音未来" />
 		</a>
 

@@ -35,6 +35,7 @@
 
 		// LOGO
 		.logo {
+			cursor: pointer;
 			margin: 89px 0 39px;
 
 			img {

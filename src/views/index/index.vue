@@ -1,7 +1,7 @@
 <template>
 	<div id="container">
 		<!-- LOGO -->
-		<a class="logo" href="https://www.insanegenji.com/admin" target="_blank">
+		<a class="logo" href="#" target="_blank">
 			<img src="@/assets/images/logo.png" alt="初音未来" />
 		</a>
 
